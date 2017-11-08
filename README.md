@@ -26,5 +26,6 @@ I would like you both to explain and explore the rendering process, and things s
 - GitHub does not render MathJax in the markdown files. This is unfortunate, but will have to make do. This means you will want to keep the mathematical notation to a minimum, and use notation that people are familiar with.
 - If you take a hint, use information obtained from other sources than the articles or the textbook, you must cite your source. It is a violation of Casady values, and good research practices, to use data, information, or results without attribution.
 - You are more than welcome to explore and include other aspects of fractals, if you have completed your portion of the assignment. I encourage you to play with code, and explore what other aspects there are to this topic. 
+- Keep in mind that what you create will be released to the larger community.
 
 If you have any questions, please let me know.
