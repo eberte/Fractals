@@ -14,6 +14,9 @@ from mpl_toolkits.mplot3d import Axes3D
 import scipy.ndimage
 ```
 
+### Julia Program
+The second cell basically tests when will the complex point inputed will fall out of the complex circle with a radius of 4. It does this by taking the complex point and squaring it and adding it to another complex number. It keeps doing this until it reaches the maxiter or that it falls out of the circle. It then returns the iteration it ends on. This is basically testing if the number is converging or diverging away from the origin.
+
 
 ```python
 def julia(z, c, maxiter):
@@ -23,6 +26,9 @@ def julia(z, c, maxiter):
             break
     return iteration
 ```
+
+### Creating the Atlas
+The third cell creates an atlas of entries and tests them in the julia program. First the cell sets up values for x and y using the linspace function which takes in two numbers as beginning and end, and then takes the amount of cuts you want to make in between the two numbers, this gives you a list of numbers between your start and end. The third line sets up a random complex number for the julia program. xlen and ylen test how long xvalues and yvalues are. The lengths are then used to create an array of the size xlen by ylen full of zeros in the form of place holders. The for loops now are choosing every position in the array one by one and pulling numbers from xvalues and yvalues to create a new complex number called z. The for loop now accesses the atlas at [ix, iy] and inputs the iterations of z according to the julia program.
 
 
 ```python
@@ -48,7 +54,7 @@ pyplot.show()
 ```
 
 
-![png](output_4_0.png)
+![png](output_6_0.png)
 
 
 
@@ -78,7 +84,7 @@ juliaSets(complex(0.43, -0.57))
 ```
 
 
-![png](output_6_0.png)
+![png](output_8_0.png)
 
 
 
@@ -87,7 +93,7 @@ juliaSets(0.7885 * cmath.exp(1j * cmath.pi / 2))
 ```
 
 
-![png](output_7_0.png)
+![png](output_9_0.png)
 
 
 
@@ -119,7 +125,7 @@ pyplot.show()
 ```
 
 
-![png](output_9_0.png)
+![png](output_11_0.png)
 
 
 
@@ -159,7 +165,7 @@ pyplot.show()
 ```
 
 
-![png](output_11_0.png)
+![png](output_13_0.png)
 
 
 
@@ -176,5 +182,5 @@ pyplot.show()
 
 
 
-![png](output_12_1.png)
+![png](output_14_1.png)
 
