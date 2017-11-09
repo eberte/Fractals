@@ -46,6 +46,9 @@ for ix in range(xlen):
         atlas[ix,iy] = julia(z, c, 90)
 ```
 
+### Showing the Julia Set
+The next cell sets up a figure of the right size and transforms the atlas into something that can be transposed onto a 2d graph and then shows the figure
+
 
 ```python
 fig = pyplot.figure(figsize=(10,10), dpi = 100)
@@ -54,8 +57,11 @@ pyplot.show()
 ```
 
 
-![png](output_6_0.png)
+![png](output_7_0.png)
 
+
+### Compiled Julia Sets Program
+The next cell is just a compilation of all the code from the above put into one function, with the addition of everything being a variable so that it is completely cutomizable. a new thing is that there is now collor added on lines 14 and 15.
 
 
 ```python
@@ -78,13 +84,16 @@ def juliaSets(c, maxiter = 90, xRangeBegin = -2, xRangeEnd = 2, yRangeBegin = -2
     pyplot.show()
 ```
 
+### Tests
+The next two cells just test the above cell with different c values
+
 
 ```python
 juliaSets(complex(0.43, -0.57))
 ```
 
 
-![png](output_8_0.png)
+![png](output_11_0.png)
 
 
 
@@ -93,7 +102,7 @@ juliaSets(0.7885 * cmath.exp(1j * cmath.pi / 2))
 ```
 
 
-![png](output_9_0.png)
+![png](output_12_0.png)
 
 
 
@@ -125,7 +134,7 @@ pyplot.show()
 ```
 
 
-![png](output_11_0.png)
+![png](output_14_0.png)
 
 
 
@@ -165,7 +174,7 @@ pyplot.show()
 ```
 
 
-![png](output_13_0.png)
+![png](output_16_0.png)
 
 
 
@@ -182,5 +191,5 @@ pyplot.show()
 
 
 
-![png](output_14_1.png)
+![png](output_17_1.png)
 
