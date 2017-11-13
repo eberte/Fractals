@@ -1,7 +1,7 @@
 
 ## Explaining Mandelbrot
 
-###### note: All the functions are derived from or based on code in PYTHON: MAKE YOUR OWN MANDELBROT SET By Tariq Rashid Some information on the functions is also from this article.
+###### note: All the functions are derived from or based on code in PYTHON: Make Your Own Mandelbrot Set By Tariq Rashid. Some information on the functions is also from this article.
 
 ### Import Statements
 
