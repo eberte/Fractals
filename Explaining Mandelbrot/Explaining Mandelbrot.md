@@ -13,35 +13,6 @@ import numpy as np
 
 #### These import statements bring the "modules" needed to display the Mandelbrot. Pyplot is the module that will display the final product. Numpy helps with organizing all of the data into arrays.
 
-### Some Python introductory functions
-
-#### -Insert Explanation Here- (I'm pretty sure I was told NOT to include these. I will make sure.)
-
-
-```python
-# start code under review for deletion
-def helloworld():
-    print('Hello World!')
-    
-def variables():
-    x = 10
-    print(x)
-    print(x+5)
-    print(z)
-    
-def forloop():
-    for n in range(10):
-        print(n)
-    print('done')
-
-def morefor():
-    for n in range(10):
-        print('The square of',n,'is',n*n)
-    print("done")
-
-#end code under review for deletion
-```
-
 ### The Mandel Function
 
 #### This function is the most important function here. It has 2 arguments, c and maxiter. c is a complex number that will be fed to this function later in the process. maxiter is the maximum amount of iterations that the function can do. It takes c, and finds after how many iterations it will leave the circle, which in this case has a radius of 4, however that can be changed. The last thing it does is return that info to the function that called it
@@ -245,5 +216,5 @@ fullMandel()
 
 
 
-![png](output_22_1.png)
+![png](output_19_1.png)
 
