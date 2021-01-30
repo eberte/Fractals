@@ -10,7 +10,7 @@ The goals of this assignment are to have you:
 
 You each have a different portion of the assignment. When the three of you are finished, it will provide others with an introduction to fractals in a progressive manner. Your individual assignments are listed below. While GitHub will render small Jupyter pages, these pages will be to graphically intensive, for this to be reasonable. Hence, you can create your page in a Jupyter notebook, but you will want to save the notebook as a markdown file, before pushing it to the repository.
 
-## Kristian:
+##
 Your portion of the assignment will be to describe and explain the homework exercises, form the book. These were 10.1.1, 10.1.2, and 10.1.4. I would also like you to explore the Hilbert space-filling curve. I believe Vasili was able to get this working; so collaborate if you need assistance.
 
 ## Vasili:
